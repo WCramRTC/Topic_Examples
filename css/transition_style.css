@@ -1,3 +1,7 @@
+body {
+    overflow: hidden;
+}
+
 #yoyo-animation {
     margin: 0 auto;
     width: 80%;
