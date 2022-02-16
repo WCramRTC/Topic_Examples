@@ -4,20 +4,31 @@ body {
 
 table {
     width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
 }
 
-td {
+td{
     width: 33%;
-    border: 1px solid black;
+    border: 1px solid rgb(230, 230, 230);
     display: inline-block;
     height: 300px;
     padding: 10px;
+    font-size: 1.2rem;
+
+}
+
+th {
+    width: 33%;
+    display: inline-block;
+    padding: 5px 0;
     font-size: 1.2rem;
 }
 
 .code-example {
     background-color: #34495e;
     color: #ecf0f1;
+    padding-left: 40px;
 }
 
 .site-example {
@@ -30,7 +41,6 @@ td {
     padding: 10px 0;
     background-color: white;
     border-radius: 10px;
-    box-shadow: -5px 5px 5px rgba(155,155,155,.2);
 }
 
 .examples p {
@@ -88,6 +98,6 @@ td {
 }
 
 .example-2-size:active {
-    width: 650px;
+    width: 100%;
     font-size: 2rem;
 }
