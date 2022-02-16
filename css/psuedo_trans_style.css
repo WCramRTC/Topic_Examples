@@ -7,7 +7,8 @@ body {
 .examples {
     width: 700px;
     margin: 30px auto;
-    height: 400px;
+    padding: 10px 0;
+    height: 450px;
     background-color: white;
     font-weight: bold;
     border-radius: 10px;
@@ -34,6 +35,7 @@ body {
     color: rgb(41, 83, 131);
 }
 
+/* Example 1 */
 .example-1-background:hover {
     background-color: pink;
 }
@@ -51,6 +53,8 @@ body {
     width: 650px;
     font-size: 2rem;
 }
+
+/* Example 2 */
 
 .example-2-background:active {
     background-color: pink;
