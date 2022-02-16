@@ -1,5 +1,5 @@
 body {
-    overflow: hidden;
+    overflow-y: hidden;
 }
 
 /* Yo Yo */
@@ -97,3 +97,11 @@ body {
 }
 
 /* On Hover Transition */
+
+.site-example p {
+    padding: 20px;
+    border: 1px solid black;
+    margin-top: 40px;
+    text-align: center;
+    cursor: pointer;
+}
