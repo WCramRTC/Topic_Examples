@@ -1,3 +1,8 @@
+:root {
+    --code-background: #34495e;
+    --code-text: #ecf0f1;
+}
+
 table {
     width: 100%;
     margin-top: 20px;
@@ -13,7 +18,6 @@ td{
     max-height: 100%; */
     padding: 10px;
     font-size: 1.2rem;
-
 }
 
 th {
@@ -23,9 +27,14 @@ th {
     font-size: 1.2rem;
 }
 
+#container-table {
+    width: 1000px;
+    margin: 0 auto;
+}
+
 .code-example {
-    background-color: #34495e;
-    color: #ecf0f1;
+    background-color: var(--code-background);
+    color: var(--code-text);
     padding-left: 40px;
 }
 

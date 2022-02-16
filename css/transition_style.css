@@ -1,0 +1,55 @@
+#yoyo-animation {
+    margin-top: 50px;
+    width: 80%;
+    height: 200px;
+    background-color: orange;
+    position: relative;
+}
+
+
+.border {
+    border: 1px solid black;
+}
+
+#yoyo {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-image: radial-gradient(red 50px, white 1px, red);
+    color: white;
+    border-radius: 50%;
+    margin-top: 22px;
+    margin-left: 20px;
+    transform: rotate();
+    transition: margin-left .7s ease-in;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+    box-shadow: 3px 3px 5px rgba(0,0,0,.5);
+}
+
+#yoyo-string {
+    position: absolute;
+    bottom: 45%;
+    left: 70px;
+    padding-right: 0;
+    border: 1px solid black;
+    transition: padding-right .7s ease-in;
+}
+
+#yoyo-animation:active #yoyo-string {
+    padding-right: 600px;
+}
+
+
+@keyframes rotation {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(359deg);}
+}
+
+#yoyo-animation:active #yoyo {
+    margin-left: 80%;
+    animation: rotation 1s infinite linear;
+}
