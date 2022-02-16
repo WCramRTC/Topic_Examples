@@ -78,12 +78,12 @@ th {
 
 .example-1-size {
     width: 100px;
-    font-size: .5rem;
+    font-size: 1rem;
 }
 
 .example-1-size:hover {
     width: 100%;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 /* Example 2 */
