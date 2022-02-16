@@ -57,11 +57,12 @@
                 <td class="code-example">
                     <p>p {</p>
                         <p>&emsp;margin: 100px;</p>
-                        <p>&emsp;margin: 100px;</p>
+                        <p>&emsp;font-size: 1rem;</p>
                     <p>}</p>
 
                     <p>p:hover {</p>
-                        <p>&emsp;background-color: pink;</p>
+                        <p>&emsp;margin: 100%;</p>
+                        <p>&emsp;font-size: 2rem;</p>
                     <p>}</p>
 
                 </td>
@@ -80,9 +81,71 @@
 
     <div class="examples">
         <h2>:active</h2>
-        <p class="example-2-background example-button">Change background on click</p>
-        <p class="example-2-color example-button">Change font color on click</p>
-        <p class="example-2-size example-button">Change the box and font size on click</p>
+        <table>
+            <tr>
+                <th>style.css</th>
+                <th>index.html</th>
+                <th>site</th>
+            </tr>
+            <tr>
+                <td class="code-example">
+                    <p>p {</p>
+                        <p>&emsp;background-color: lightblue;</p>
+                    <p>}</p>
+
+                    <p>p:active {</p>
+                        <p>&emsp;background-color: pink;</p>
+                    <p>}</p>
+
+                </td>
+                <td class="code-example">
+                    <p>&#60;p&#62;Change background on click&#60;/p&#62;</p>
+                </td>
+                <td class="site-example "><p class="example-2-background example-button">Change background on click</p></td>
+            </tr>
+
+            <!-- --------------------------------------------------------------------------- -->
+            <tr>
+                <td class="code-example">
+                    <p>p {</p>
+                        <p>&emsp;color: white;</p>
+                    <p>}</p>
+
+                    <p>p:active {</p>
+                        <p>&emsp;color: lightgreen;</p>
+                    <p>}</p>
+
+                </td>
+                <td class="code-example">
+                    <p>&#60;p&#62;Change font color on click&#60;/p&#62;</p>
+                </td>
+                <td class="site-example "><p class="example-2-color example-button">Change font color on click</p></td>
+            </tr>
+            <!-- --------------------------------------------------------------------------- -->
+            <tr>
+                <td class="code-example">
+                    <p>p {</p>
+                        <p>&emsp;margin: 100px;</p>
+                        <p>&emsp;font-size: 1rem;</p>
+                    <p>}</p>
+
+                    <p>p:active {</p>
+                        <p>&emsp;margin: 100%;</p>
+                        <p>&emsp;font-size: 2rem;</p>
+                    <p>}</p>
+
+                </td>
+                <td class="code-example">
+                    <p>&#60;p&#62;Change the box and font size on click&#60;/p&#62;</p>
+                </td>
+                <td class="site-example "><p class="example-2-size example-button">Change the box and font size on click</p></td>
+            </tr>
+            <!-- --------------------------------------------------------------------------- -->
+        </table>
+
+        
+        
+        
     </div>
 
 </body>
