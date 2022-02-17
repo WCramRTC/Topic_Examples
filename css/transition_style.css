@@ -209,6 +209,18 @@ body {
     transition: margin 1s ease;
 }
 
+.linear {
+    transition: margin 1s linear;
+}
+
+.cubic {
+    transition: margin 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.delayed {
+    transition-delay: 1s;
+}
+
 .tag {
     position: absolute;
     width: 100%;
