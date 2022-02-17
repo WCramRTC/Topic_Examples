@@ -54,11 +54,11 @@
                 </td>
                 <td class="code-example">
                     <br><br>
-                    <p><p>&#60;p&#62;Color Change over 1 second&#60;/p&#62;</p>
+                    <p><p>&#60;p class="one-second"&#62;<br>Color Change over 1 second<br>&#60;/p&#62;</p>
                     <br><br>
-                    <p><p>&#60;p&#62;Color Change over 2 seconds&#60;/p&#62;</p>
+                    <p><p>&#60;p class="two-second"&#62;<br>Color Change over 2 seconds<br>&#60;/p&#62;</p>
                     <br><br>
-                    <p><p>&#60;p&#62;Color Change over half a second&#60;/p&#62;</p>
+                    <p><p>&#60;p class="half-second"&#62;<br>Color Change over half a second<br>&#60;/p&#62;</p>
                 </td>
                 <td class="site-example">
                     <p class="color-one-second">Color Change over 1 second</p>
@@ -67,6 +67,7 @@
                 </td>
             </tr>
         </table>
+        <!--  -->
         <br><br>
         <table id="different-properties">
             <tr>
@@ -75,24 +76,26 @@
                 <th>site</th>
             </tr>
             <tr>
-                <td class="code-example">
-                    <p>p {</p>
+                <td class="code-example site-example-height">
+
+                        <p>.border-transition { <br>
+                            &emsp;border: 0;<br>
+                            &emsp;transition: border 1s; <br>               
+                        }</p>
                         <br>
-                        <p>&emsp;color: purple;</p>
+                        <p>.border-transition:hover { <br>&emsp;border: 5px dashed rgb(35, 103, 112);<br>}</p>
                         <br>
-                    <p>}</p>
+                        <p>.width-transition { <br>
+                            &emsp;width: 100px;<br>
+                            &emsp;transition: width 1s; <br>}</p>
                         <br>
-                        <p>.one-second { transition: color 1s; }</p>
-                        <p>.two-second { transition: color 2s; }</p>
-                        <p>.half-second { transition: color .5s; }</p>
+                        <p>.width-transition:hover { <br>&emsp;transition: color 1s; <br>}</p>
                         <br>
-                    <p>p:hover {</p>
+
                         <br>
-                        <p>&emsp;color: pink;</p>
-                        <br>
-                    <p>}</p>
+
                 </td>
-                <td class="code-example">
+                <td class="code-example site-example-height">
                     <br><br>
                     <p><p>&#60;p&#62;Width&#60;/p&#62;</p>
                     <br><br>
@@ -100,7 +103,7 @@
                     <br><br>
                     <p><p>&#60;p&#62;Width and Border&#60;/p&#62;</p>
                 </td>
-                <td class="site-example">
+                <td class="site-example site-example-height">
                     <p class="width-transition width-size">Width</p>
                     <p class="border-transition">Border</p>
                     <p class="border-transition width-transition">Width and border</p>

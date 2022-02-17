@@ -1,5 +1,5 @@
 body {
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
 }
 
 /* Yo Yo */
@@ -127,10 +127,9 @@ body {
 /* Different Properties */
 
 #different-properties .site-example p {
-    width: 100px;
+
     height: 70px;
     padding-top: 12px;
-    border: 1px solid black;
     margin: 0 auto;
     margin-top: 40px;
     text-align: center;
@@ -140,15 +139,28 @@ body {
     border-radius: 0;
 }
 
-#different-properties .site-example p:hover {
-    width: 100%;
-}
+
 
 .border-transition {
+    border: 0;
     transition: border 1s;
 }
 
+.border-transition:hover {
+    border: 5px dashed rgb(35, 103, 112);
+
+}
+
 .width-transition {
+    width: 100px;
     transition: width 1s;
+}
+
+.width-transition:hover {
+    width: 100%;
+}
+
+.site-example-height {
+    height: 450px;
 }
 
