@@ -41,13 +41,36 @@
                     <td><label for="phone">Phone: </label></td>
                     <td><input type="tel" id="phone"></td> 
                     <td><label for="radio">Home: </label></td>
-                    <td><input type="radio" id="phoneHome" value="home"></td>
+                    <td><input type="radio" id="phoneHome" name="phoneGroup" value="home" selected></td>
                     <td><label for="radio">Mobile: </label></td>
-                    <td><input type="radio" id="phoneMobile" value="mobile"></td>
+                    <td><input type="radio" name="phoneGroup" id="phoneMobile" value="mobile"></td>
                 </tr>
                 <tr>
                     <td><label for="email">Email: </label></td>
                     <td><input type="email" id="email"></td>
+                </tr>
+                <tr>
+                    <select>
+                        <option>
+                            Software Engineer
+                        </option>
+                        <option>
+                            Game Developer
+                        </option>
+                        <option>
+                            Data Scientist
+                        </option>
+                        <option>
+                            Computer Security
+                        </option>
+                        <option>
+                            Full Stack Developer
+                        </option>
+                        <option>
+                            Other
+                        </option>
+                    </select>
+
                 </tr>
             </table>
         </form>
