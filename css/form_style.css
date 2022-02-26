@@ -1,6 +1,6 @@
 body {
     /* background-color: red; */
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
 }
 
 html {
@@ -38,4 +38,106 @@ html {
 
 #form-full-example textarea {
     columns: 50;
+}
+
+#text-examples {
+    margin: 0 auto;
+    width: 500px;
+    height: 600px;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#text-examples table {
+    border-collapse: collapse;
+}
+
+#text-examples th {
+    width: 250px;
+    padding-bottom: 10px;
+}
+
+#text-examples td {
+    padding: 20px 0;
+    text-align: right;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+
+
+#picker-examples {
+    margin: 0 auto;
+    width: 500px;
+    height: 410px;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#picker-examples table {
+    border-collapse: collapse;
+}
+
+#picker-examples th {
+    width: 250px;
+    padding-bottom: 10px;
+}
+
+#picker-examples td {
+    padding: 20px 0;
+    text-align: right;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+
+#time-examples {
+    margin: 0 auto;
+    width: 500px;
+    height: 410px;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#time-examples table {
+    border-collapse: collapse;
+}
+
+#time-examples th {
+    width: 250px;
+    padding-bottom: 10px;
+}
+
+#time-examples td {
+    padding: 20px 0;
+    text-align: right;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+
+#special-examples {
+    margin: 0 auto;
+    width: 500px;
+    height: 410px;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#special-examples table {
+    border-collapse: collapse;
+    
+}
+
+#special-examples th {
+    width: 250px;
+    padding-bottom: 10px;
+}
+
+#special-examples td {
+    padding: 20px 0;
+    text-align: right;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
 }
