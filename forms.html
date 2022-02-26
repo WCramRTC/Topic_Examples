@@ -42,18 +42,23 @@
                 <tr>
                     <td><label for="phone">Phone: </label></td>
                     <td><input type="tel" id="phone"></td> 
-                    <td><label for="radio">Home: </label></td>
-                    <td><input type="radio" id="phoneHome" name="phoneGroup" value="home" checked></td>
-                    <td><label for="radio">Mobile: </label></td>
-                    <td><input type="radio" name="phoneGroup" id="phoneMobile" value="mobile"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <label for="radio">Home: </label>
+                        <input type="radio" id="phoneHome" name="phoneGroup" value="home" checked>
+                        &nbsp;
+                        <label for="radio">Mobile: </label>
+                        <input type="radio" name="phoneGroup" id="phoneMobile" value="mobile">
+                    </td>
                 </tr>
                 <tr>
                     <td><label for="email">Email: </label></td>
                     <td><input type="email" id="email"></td>
-                    
                 </tr>
                 <tr>
-                    <td></td>
+                    <td>Profession: </td>
                     <td>
                         <select>
                             <option>
@@ -75,6 +80,16 @@
                     </td>
                 </tr>
                 <tr>
+                    <td>About You:</td>
+                    <td>
+                        <textarea 
+                        cols="40"
+                        rows="10"
+                        ></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
                     <td><input type="submit" value="Submit"></td>
                 </tr>
             </table>

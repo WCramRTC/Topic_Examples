@@ -3,7 +3,7 @@ body {
 }
 
 html {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 #container {
@@ -11,25 +11,29 @@ html {
     margin: 0 auto;
 }
 
-table {
-    border: 1px solid black;
-    border-radius: 5px;
-}
-
-td {
-    padding-top: 10px;
-}
+/* #form-full-example */
 
 #form-full-example > table{
     margin: 0 auto;
+    width: 500px;
     padding: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
 
 }
 
-input[type="text"] {
+#form-full-example td {
+    padding-top: 10px;
+}
+
+#form-full-example input[type="text"] {
     color: red;
 }
 
-input[type="submit"] {
+#form-full-example input[type="submit"] {
     padding: 10px 20px;
+}
+
+#form-full-example textarea {
+    columns: 50;
 }
