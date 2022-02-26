@@ -25,6 +25,10 @@ html {
 
 }
 
+.colored-rows tr:nth-child(2n) {
+    background-color: lightgray;
+}
+
 #form-full-example td {
     padding-top: 10px;
 }
