@@ -2,7 +2,34 @@ body {
     background-color: red;
 }
 
+html {
+    font-size: 24px;
+}
+
 #container {
     width: 80%;
     margin: 0 auto;
+}
+
+table {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+td {
+    padding-top: 10px;
+}
+
+#form-full-example > table{
+    margin: 0 auto;
+    padding: 30px;
+
+}
+
+input[type="text"] {
+    color: red;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
 }

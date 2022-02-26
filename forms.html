@@ -27,12 +27,14 @@
      -->
 
      <div id="container">
-        <form>
-            <table>
+        <form id="form-full-example" action="https://www.rtc.edu" target="_blank" method="get">
+            <table >
+
                 <tr>
                     <td><label for="fName">First Name: </label></td>
                     <td><input type="text" id="fName"></td>
                 </tr>
+                
                 <tr>
                     <td><label for="lName">Last Name: </label></td>
                     <td><input type="text" id="lName"></td>
@@ -41,39 +43,43 @@
                     <td><label for="phone">Phone: </label></td>
                     <td><input type="tel" id="phone"></td> 
                     <td><label for="radio">Home: </label></td>
-                    <td><input type="radio" id="phoneHome" name="phoneGroup" value="home" selected></td>
+                    <td><input type="radio" id="phoneHome" name="phoneGroup" value="home" checked></td>
                     <td><label for="radio">Mobile: </label></td>
                     <td><input type="radio" name="phoneGroup" id="phoneMobile" value="mobile"></td>
                 </tr>
                 <tr>
                     <td><label for="email">Email: </label></td>
                     <td><input type="email" id="email"></td>
+                    
                 </tr>
                 <tr>
-                    <select>
-                        <option>
-                            Software Engineer
-                        </option>
-                        <option>
-                            Game Developer
-                        </option>
-                        <option>
-                            Data Scientist
-                        </option>
-                        <option>
-                            Computer Security
-                        </option>
-                        <option>
-                            Full Stack Developer
-                        </option>
-                        <option>
-                            Other
-                        </option>
-                    </select>
-
+                    <td></td>
+                    <td>
+                        <select>
+                            <option>
+                                Software Developer
+                            </option>
+                            <option>
+                                Game Developer
+                            </option>
+                            <option>
+                                Cyber Security
+                            </option>
+                            <option>
+                                Data Scientist
+                            </option>
+                            <option>
+                                Full Stack Developer
+                            </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Submit"></td>
                 </tr>
             </table>
         </form>
+ 
      </div>
 
 </body>
