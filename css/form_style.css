@@ -1,6 +1,6 @@
 body {
     /* background-color: red; */
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
 }
 
 html {
@@ -12,6 +12,8 @@ html {
     width: 80%;
     margin: 0 auto;
 }
+
+
 
 /* #form-full-example */
 
@@ -29,6 +31,8 @@ html {
     background-color: lightgray;
 }
 
+
+
 #form-full-example td {
     padding-top: 10px;
 }
@@ -45,7 +49,7 @@ html {
     columns: 50;
 }
 
-#text-examples {
+.form {
     margin: 0 auto;
     width: 500px;
     height: 600px;
@@ -54,99 +58,80 @@ html {
     border-radius: 5px;
 }
 
-#text-examples table {
+.form table {
     border-collapse: collapse;
 }
 
-#text-examples th {
+.form th {
     width: 250px;
     padding-bottom: 10px;
 }
 
-#text-examples td {
+.form td {
     padding: 20px 0;
     text-align: right;
     border-bottom: 1px solid grey;
     border-top: 1px solid grey;
 }
 
+.radio-button-height {
+    height: 280px;
+}
 
-#picker-examples {
-    margin: 0 auto;
-    width: 500px;
+.text-height {
+    height: 600px;
+}
+
+.picker-height {
     height: 410px;
-    padding: 30px;
-    border: 1px solid black;
-    border-radius: 5px;
 }
 
-#picker-examples table {
-    border-collapse: collapse;
-}
-
-#picker-examples th {
-    width: 250px;
-    padding-bottom: 10px;
-}
-
-#picker-examples input[type="image"] {
+.picker-height input[type="image"] {
     width: 30px;
+    cursor: pointer;
 }
 
-#picker-examples td {
-    padding: 20px 0;
-    text-align: right;
-    border-bottom: 1px solid grey;
-    border-top: 1px solid grey;
+.date-height {
+    height: 410px;
 }
 
-#time-examples {
+.special-height {
+    height: 410px;
+}
+
+
+
+.radio-buttons {
     margin: 0 auto;
     width: 500px;
-    height: 410px;
+
     padding: 30px;
     border: 1px solid black;
     border-radius: 5px;
 }
 
-#time-examples table {
+.radio-buttons table {
     border-collapse: collapse;
-}
-
-#time-examples th {
-    width: 250px;
-    padding-bottom: 10px;
-}
-
-#time-examples td {
-    padding: 20px 0;
-    text-align: right;
-    border-bottom: 1px solid grey;
-    border-top: 1px solid grey;
-}
-
-#special-examples {
-    margin: 0 auto;
-    width: 500px;
-    height: 410px;
-    padding: 30px;
     border: 1px solid black;
-    border-radius: 5px;
+    width: 100%;
 }
 
-#special-examples table {
-    border-collapse: collapse;
-    
-}
-
-#special-examples th {
-    width: 250px;
+.radio-buttons th {
     padding-bottom: 10px;
 }
 
-#special-examples td {
+.radio-buttons td {
     padding: 20px 0;
-    text-align: right;
+    text-align: center;
     border-bottom: 1px solid grey;
     border-top: 1px solid grey;
+}
+
+.radio-button-height {
+    height: 280px;
+}
+
+.select-example select {
+    color: red;
+    padding: 10px 30px;
 }
