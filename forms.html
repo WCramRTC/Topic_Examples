@@ -293,25 +293,44 @@
 
                 </form>
                 <br><br>
-                <form id="select-example" class="form select-example">
-                    <table>
-                        <tr>
-                            <td>
-                                <select>
-                                    <option>Option 1</option>
-                                    <option>Option 2</option>
-                                    <option>Option 3</option>
-                                    <option>Option 4</option>
-                                    <option>Option 5</option>
-                                    <option>Option 6</option>
-                                    <option>Option 7</option>
-                                </select>
-                            </td>
-                        </tr>
-                    </table>
-
+                <form id="select-example" class="form select-example-class select-height">
+                    <div class="select-grid">
+                        <div>Color</div>
+                        <div>Background-Color</div>
+                        <div>Font-Size</div>
+                        <div>
+                            <select id="colorSelect">
+                                <option value="black">Black</option>
+                                <option value="white">White</option>
+                                <option value="red">Red</option>
+                                <option value="orange">Orange</option>
+                                <option value="lightblue">Light Blue</option>
+                            </select>
+                        </div>
+                        <div>
+                            <select id="backgroundSelect">
+                                <option value="white">White</option>
+                                <option value="black">Black</option>
+                                <option value="red">Red</option>
+                                <option value="orange">Orange</option>
+                                <option value="lightblue">Light Blue</option>
+                            </select>
+                        </div>
+                        <div>
+                            <select id="quoteSelect">
+                                <option>Teaching</option>
+                                <option>Growing</option>
+                                <option>AI</option>
+                            </select>
+                        </div>
+                    </div>
+                        
+                    <div id="select-display">
+                        “It would seem that you have no useful skill or talent whatsoever," he said. "Have you thought of going into teaching?”
+― Terry Pratchett, Mort
+                    </div>
                 </form>
      </div>
-
+     <script src="script/js.js"></script>
 </body>
 </html>
