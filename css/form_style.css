@@ -1,6 +1,6 @@
 body {
     /* background-color: red; */
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
 }
 
 html {
@@ -87,6 +87,10 @@ html {
 #picker-examples th {
     width: 250px;
     padding-bottom: 10px;
+}
+
+#picker-examples input[type="image"] {
+    width: 30px;
 }
 
 #picker-examples td {
